@@ -39,7 +39,13 @@ We don't ask you to take "it works" on faith. [`docs/proof.md`](docs/proof.md) s
 
 ## The board
 
-A live kanban (Queued → Running → Review → Escalated → Done) with owner kill-switches. Screenshots — real and projected-state — in [`screenshots/`](screenshots/).
+A live kanban (Queued → Running → Review → Escalated → Done) with owner kill-switches and a token meter.
+
+![The board — all states](screenshots/board-all-states.png)
+
+The **Escalated** card (`auto-fix attempts: 3/3 · NEEDS OWNER`) is the system admitting it's stuck instead of thrashing; the **Blocked** card is a wave refusing to start because its upstream broke. Owner controls can stop the whole thing cold:
+
+![Owner controls — paused](screenshots/board-paused.png)
 
 ---
 

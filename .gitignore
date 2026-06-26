@@ -9,3 +9,6 @@ desktop.ini
 # scratch
 *.tmp
 .scratch/
+
+# loose scratch dupes (board PNGs live in screenshots/)
+.scratch-*
